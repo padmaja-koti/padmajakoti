@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 5</title>  
+</head>
+<body bgcolor="lightblue">
+    <h1><b><u>Registration Form</u></b></h1s>
+        <br>
+    <form>
+        <label for="fname"><b>First name</b></label>
+        <input type="text" id="fname" name="fname"></input>
+        <br>
+
+        <label for="lname"><b>Last name</b></label>
+        <input type="text" id="lname" name="lname"></input>
+        <br>
+        <h3>Gender:
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+    
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+            </h3>
+    
+            <label for="qualification">Select your highest qualification:</label>
+            <select id="qualification" name="qualification" required>
+                <option value="">--Please select--</option>
+                <option value="none">None</option>
+                <option value="high_school">High School Diploma</option>
+                <option value="associate">Associate Degree</option>
+                <option value="bachelor">Bachelor's Degree</option>
+                <option value="master">Master's Degree</option>
+                <option value="doctorate">Doctorate or Higher</option>
+            </select>
+        </div>
+     <br/>
+     <h3> State:
+            <select name="chState" input type="text" id="chState" state="chState">
+                <option>Karnataka </option>
+                <option>Maharastra </option>
+                <option>Delhi </option>
+            </select>
+     </h3>
+     <h3>Languages Known:
+
+            <input type="checkbox" id="english" name="languages" value="english">
+            <label for="english">English</label>
+        
+            <input type="checkbox" id="spanish" name="languages" value="spanish">
+            <label for="spanish">Kannada</label>
+
+            <input type="checkbox" id="french" name="languages" value="french">
+            <label for="french">Hindi</label>
+        
+            <input type="checkbox" id="chinese" name="languages" value="chinese">
+            <label for="chinese">Marthi</label></h3>
+    
+          <h3><b>Address:</b>
+            <label for="street">Street:</label>
+            <input type="text" id="street" name="street">
+
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city">
+        
+            <label for="state">State/Province/Region:</label>
+            <input type="text" id="state" name="state"></h3>
+    
+        Upload Resume: <input type="file" name="filResume">
+     <br> 
+           Mobile No : <input type="number" name="txtMobile">
+    <br>
+           Email: <input type="email" name="txtEmail">
+    <br>
+            Date of Birth: <input type="date" name="txtDOB">
+    <br>
+       <input type="submit" name="btnSubmit" value="Register">
+        <input type="reset" name="btnReset" value="Clear">
+   </form>
+  </body>
+  </html>
